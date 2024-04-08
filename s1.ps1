@@ -1,5 +1,5 @@
 # Download the installer from Dropbox
-$url = "https://dl.dropboxusercontent.com/scl/fi/er74lkid70luax5ygxnc0/SentinelInstaller_windows_64bit_v23_3_3_264.msi?dl=0"
+$url = "https://www.dropbox.com/scl/fi/er74lkid70luax5ygxnc0/SentinelInstaller_windows_64bit_v23_3_3_264.msi?rlkey=gh2025cfe3rs7jx86e4k0e4hs&dl=0"
 $filePath = "$PWD\SentinelInstaller_windows_64bit_v23_3_3_264.msi"
 Invoke-WebRequest -Uri $url -OutFile $filePath
 
